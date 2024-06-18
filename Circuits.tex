@@ -1,0 +1,43 @@
+\documentclass{book} 
+\usepackage{amsmath,amsthm,amsfonts,float} 
+\usepackage{graphicx} 
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric}
+\numberwithin{equation}{section}
+
+\newtheorem{alevel}{A-LEVEL TASK}
+\newtheorem{blevel}{B-LEVEL TASK}
+\newtheorem{clevel}{C-LEVEL TASK}
+\newtheorem{dlevel}{D-LEVEL TASK}
+\newtheorem{elevel}{E-LEVEL TASK}
+\theoremstyle{definition}
+\newtheorem{bigidea}{BIG IDEA}
+\newcommand{\longdiv}{\smash{mkern-0.43mu\vstretch{1.31}{\hstretch{.7}{)}}\mkern-5.2mu\vstretch{1.31}{\hstretch{.7}{)}}}}
+
+\newcommand\BI[1]{ \fbox{\parbox{10cm}{
+\textbf{\textcolor{blue}{\begin{bigidea}#1\end{bigidea}}}}
+}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+\title{Learning Electrical Circuit Analysis}
+\author{Mark Stewart}
+\maketitle
+\tableofcontents
+
+\include{ChapterNetworks}
+\setcounter{alevel}{0} \setcounter{alevel}{0}\setcounter{blevel}{0} \setcounter{clevel}{0} \setcounter{dlevel}{0}
+\include{Chapter2} \setcounter{alevel}{0}\setcounter{blevel}{0} \setcounter{clevel}{0} \setcounter{dlevel}{0}
+\include{Chapter2B} \setcounter{alevel}{0}\setcounter{blevel}{0} \setcounter{clevel}{0} \setcounter{dlevel}{0}
+\include{Chapter3} \setcounter{alevel}{0}\setcounter{blevel}{0} \setcounter{clevel}{0} \setcounter{dlevel}{0}
+\include{Chapter4} \setcounter{alevel}{0}\setcounter{blevel}{0} \setcounter{clevel}{0} \setcounter{dlevel}{0}
+\include{Chapter5}\setcounter{alevel}{0}\setcounter{blevel}{0} \setcounter{clevel}{0} \setcounter{dlevel}{0}
+\include{Chapter6}\setcounter{alevel}{0}\setcounter{blevel}{0} \setcounter{clevel}{0} \setcounter{dlevel}{0}
+\include{Chapter7}\setcounter{alevel}{0}\setcounter{blevel}{0} \setcounter{clevel}{0} \setcounter{dlevel}{0}
+\include{Chapter8}\setcounter{alevel}{0}\setcounter{blevel}{0} \setcounter{clevel}{0} \setcounter{dlevel}{0}
+\include{Chapter9}\setcounter{alevel}{0}\setcounter{blevel}{0} \setcounter{clevel}{0} \setcounter{dlevel}{0}
+
+
+\end{document}
